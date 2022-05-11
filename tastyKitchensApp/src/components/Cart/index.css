@@ -1,0 +1,116 @@
+.cart-items-list {
+  list-style: none;
+  padding-inline-start: 0px;
+  min-height: 62vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-list-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+}
+
+.cart-item-detailes-header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 37vw;
+}
+
+.cart-list-footer-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px;
+  width: 90vw;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+.place-order-button {
+  background-color: #f7931e;
+  width: 120px;
+  height: 35px;
+  pad: 6px;
+  border-radius: 12px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  border: 0px solid;
+}
+
+.no-orders-yet-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 68vh;
+  font-family: 'Roboto';
+}
+
+.order-now-btn {
+  background-color: #f7931e;
+  width: 120px;
+  height: 35px;
+  pad: 6px;
+  border-radius: 12px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  border: 0px solid;
+}
+
+.order-placed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 68vh;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+.go-to-home-btn {
+  width: 180px;
+  height: 40px;
+  background-color: #f7931e;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  border: 0px solid;
+  border-radius: 12px;
+}
+
+.cart-rupee-icon {
+  padding-top: 7px;
+}
+
+@media screen and (orientation: portrait) {
+  .cart-list-header {
+    display: none;
+  }
+  .cart-list-footer-container {
+    margin: 12px;
+  }
+  .order-total-heading {
+    font-size: 22px;
+  }
+  .order-total {
+    font-size: 26px;
+  }
+  .place-order-button {
+    width: 90px;
+    height: 26px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+  .order-placed-container {
+    height: 70vh;
+  }
+  .no-orders-yet-container {
+    height: 70vh;
+  }
+}

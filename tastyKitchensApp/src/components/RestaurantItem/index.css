@@ -1,0 +1,72 @@
+.restaurant-image {
+  width: 50%;
+  height: 180px;
+  border-radius: 8px;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.restaurant-item {
+  display: flex;
+  width: 31vw;
+  border-radius: 8px;
+  box-shadow: 2px 2px 4px 2px gray;
+  margin: 6px;
+  padding: 6px;
+  border: 0px solid;
+  margin-bottom: 12px;
+}
+
+.restraint-card-detailes-container {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.restaurant-name {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  margin-top: 5px;
+  margin-bottom: 12px;
+}
+
+.type {
+  margin-top: 3px;
+  margin-bottom: 8px;
+}
+
+.rating-container {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  color: #ffcc00;
+}
+
+.rating {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+
+.ratings-count {
+  font-weight: normal;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+@media screen and (orientation: portrait) {
+  .restaurant-item {
+    width: 90vw;
+  }
+  .restaurant-image {
+    width: 40vw;
+  }
+}

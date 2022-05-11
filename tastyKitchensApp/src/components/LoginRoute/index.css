@@ -1,0 +1,153 @@
+.bg-container {
+  display: flex;
+  align-items: center;
+}
+
+.my-form-container {
+  height: 100vh;
+  width: 50vw;
+  background-color: #ececec;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-form {
+  width: 50%;
+  background-color: #fff;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 3px 2px gray;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-text {
+  color: #f7931e;
+  font-family: 'Roboto';
+}
+
+.login-mobile-img {
+  display: none;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 12px;
+}
+
+.login-desktop-img {
+  height: 100vh;
+  width: 50%;
+}
+
+.my-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.input-container {
+  padding: 9px;
+  margin-top: 5px;
+  margin-right: 12px;
+  margin-bottom: 16px;
+  margin-left: 12px;
+  font-family: 'Roboto';
+  border: 0px solid;
+  background-color: #e2e8f0;
+  border-radius: 8px;
+}
+
+.label {
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  color: gray;
+  margin-left: 12px;
+}
+
+.check-box {
+  padding: 8px;
+  margin-left: 12px;
+  margin-right: 5px;
+  margin-bottom: 18px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.login-btn {
+  margin-left: 12px;
+  margin-right: 12px;
+  height: 38px;
+  background-color: #f7931e;
+  color: #ffff;
+  font-family: 'Robot';
+  font-weight: 600;
+  border: 0px solid;
+  border-radius: 12px;
+}
+
+.error {
+  color: crimson;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 12px;
+}
+
+.show-password {
+  font-family: 'Roboto';
+  color: gray;
+  font-size: 13px;
+}
+
+@media screen and (orientation: portrait) {
+  .my-form-container {
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: #fff;
+  }
+  .my-form {
+    width: 100vw;
+    height: 100vh;
+    padding: 0px;
+    box-shadow: none;
+    align-self: flex-end;
+  }
+
+  .login-mobile-img {
+    display: block;
+    align-self: flex-end;
+  }
+
+  .heading {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 32px;
+  }
+
+  .bg-container {
+    display: block;
+  }
+
+  .logo-container {
+    display: none;
+  }
+
+  .login-desktop-img {
+    display: none;
+  }
+}

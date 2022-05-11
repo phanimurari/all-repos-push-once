@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+}
+
+.comments-app {
+  padding: 10px;
+  text-align: center;
+}
+
+.app-container {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .app-container {
+    flex-direction: row;
+  }
+}
+
+.upper-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .upper-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    order: -1;
+  }
+}
+
+.heading {
+  font-family: 'Consolas';
+  font-size: 35px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.caption {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Consolas';
+}
+
+.input-name-style {
+  width: 100%;
+  border: solid 1px #64748b;
+  border-radius: 10px;
+  color: #000000;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.text-box-style {
+  border-radius: 10px;
+  color: #000000;
+  margin-bottom: 10px;
+  padding: 8px;
+  border: solid 1px #64748b;
+  width: 100%;
+}
+
+.btn-submit {
+  color: #dee0e3;
+  background-color: #0284c7;
+  width: 120px;
+  padding: 10px;
+  font-family: 'Consolas';
+  cursor: pointer;
+  border-style: none;
+  border-radius: 10px;
+}
+
+.image-style {
+  height: 220px;
+  width: 220px;
+}
+
+.image-container {
+  display: flex;
+  order: -1;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .image-style {
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+  }
+  .image-container {
+    display: flex;
+    order: 2;
+  }
+}
+
+.count-comments-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.count {
+  background-color: #0284c7;
+  padding: 5px;
+  color: #dee0e3;
+  font-size: 12px;
+  height: 25px;
+  width: 25px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.comments-style {
+  font-family: 'Consolas';
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 13px;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: ;
+  text-align: center;
+  background-color: #07080c;
+  height: 100vh;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  font-style: italic;
+  color: #ffffff;
+}
+
+.img-size {
+  height: 300;
+  width: 650;
+}
+
+.speed-indicator {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: ;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.limit-indicator {
+  color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button-container {
+  display: flex;
+  flex: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.button {
+  border-radius: 6px;
+  border-style: none;
+  cursor: pointer;
+  outline: none;
+  height: 30px;
+  width: 80px;
+}
+
+.accelerate-button {
+  background-color: #0b69ff;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.brake-button {
+  background-color: #07080c;
+  color: #cbd5e1;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cbd5e1;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-family: 'Roboto';
+    font-size: 35px;
+    font-weight: 600;
+    font-style: italic;
+    color: #ffffff;
+  }
+
+  .img-size {
+    height: 300px;
+    width: 700px;
+  }
+
+  .speed-indicator {
+    font-family: 'Roboto';
+    font-size: 25px;
+    color: ;
+    font-weight: 600;
+    color: #ffffff;
+  }
+
+  .limit-indicator {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .button {
+    border-radius: 6px;
+    border-style: none;
+    cursor: pointer;
+    outline: none;
+    height: 30px;
+    width: 90px;
+  }
+
+  .accelerate-button {
+    background-color: #0b69ff;
+    color: #ffffff;
+    margin-right: 8px;
+  }
+
+  .brake-button {
+    background-color: transparent;
+    color: #cbd5e1;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #cbd5e1;
+  }
+}

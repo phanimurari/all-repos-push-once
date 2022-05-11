@@ -1,0 +1,10 @@
+.app-container {
+  background-color: #9ba9eb;
+
+  height: 100vh;
+}
+
+.app-logo {
+  width: 200px;
+  height: 80px;
+}

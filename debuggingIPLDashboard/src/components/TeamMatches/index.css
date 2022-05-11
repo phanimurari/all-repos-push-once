@@ -1,0 +1,32 @@
+.team-matches-container {
+  background-color: #d91c1f;
+
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.team-image {
+  height: 200px;
+  width: 95vw;
+  margin-top: 50px;
+}
+.latest-matches-heading {
+  color: #ffffff;
+  font-size: 15px;
+  align-self: flex-start;
+}
+.unordered-latest-match {
+  background-color: #1e293b;
+  width: 95vw;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.unordered-recent-match {
+  background-color: #1e293b;
+  width: 95vw;
+  padding: 10px;
+  border-radius: 10px;
+}

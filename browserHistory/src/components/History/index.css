@@ -1,0 +1,48 @@
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-bar {
+  height: 50px;
+  width: 100%;
+  background-color: #2850a7;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.search {
+  background-color: transparent;
+  width: 500px;
+  border: 1px solid #475569;
+  color: #ffffff;
+}
+.app-logo {
+  height: 35px;
+  margin-right: 8px;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-self: center;
+  margin-left: 250px;
+}
+.search-logo {
+  margin: 5px;
+}
+.list-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.list-container {
+  width: 60%;
+  background-color: #fffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

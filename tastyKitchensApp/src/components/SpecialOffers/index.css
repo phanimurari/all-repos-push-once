@@ -1,0 +1,46 @@
+.carousel-loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 70vh;
+}
+
+.slick-dots {
+  bottom: 45px;
+}
+
+.slick-dots li button:before {
+  font-size: 14px;
+}
+.slick-dots li.slick-active button:before {
+  color: #ffff;
+}
+.slick-dots li button:before {
+  color: #ffff;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-image {
+  width: 100vw;
+  background-size: cover;
+  padding: 22px;
+}
+
+@media screen and (orientation: portrait) {
+  .slick-dots li button:before {
+    font-size: 4px;
+  }
+  .carousel-image {
+    width: 100vw;
+    padding: 0px;
+    height: 25vh;
+  }
+  .carousel-loading-container {
+    height: 25vh;
+  }
+}

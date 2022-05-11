@@ -1,0 +1,61 @@
+/* Write your CSS here */
+.money-manager-container {
+  padding: 30px;
+}
+
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.welcome-container {
+  padding: 20px;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+}
+.green-text {
+  color: #0b69ff;
+  font-weight: 600;
+}
+.form-tansaction-item-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.form-container {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7e858e;
+  padding: 20px;
+  width: 40%;
+}
+
+.history-container {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7e858e;
+  padding: 20px;
+  width: 55%;
+}
+.history-sub-container {
+  list-style: none;
+  padding-left: 0px;
+}
+.border {
+  width: 30%;
+}
+.history-subheadings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 90%;
+}
+.hor-line {
+  border: 1px solid #7e858e;
+  width: 100%;
+}

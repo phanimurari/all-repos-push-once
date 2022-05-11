@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.Container{
+    display: flex;
+    align-items: flex-start;
+
+}
+.unOL{
+    list-style-type: none;
+    padding-left: 0px;
+      display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.eventsContainer{
+    background-color:  #64748b;
+    width: 60%;
+    height: 100vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+}
+.activeContainer{
+    width: 30%;
+    min-height: 100vh;
+}

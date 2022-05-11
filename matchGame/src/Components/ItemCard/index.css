@@ -1,0 +1,17 @@
+.imagesList {
+  background-color: transparent;
+  border-width: 0px;
+  margin: 5px;
+  list-style: none;
+}
+
+.imageSizing {
+  width: 150px;
+  height: 150px;
+}
+
+.butt {
+  cursor: pointer;
+  background-color: transparent;
+  border-width: 0px;
+}

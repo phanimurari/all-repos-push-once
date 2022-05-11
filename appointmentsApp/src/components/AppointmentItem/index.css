@@ -1,0 +1,30 @@
+.appointmentItemContainer {
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 15px;
+}
+
+.appointment-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.starButton {
+  border-width: 0;
+  background-color: transparent;
+}
+
+.date {
+  color: #b5b7c4;
+}

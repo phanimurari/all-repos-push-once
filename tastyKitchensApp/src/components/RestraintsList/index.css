@@ -1,0 +1,82 @@
+.list-bg-container {
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.restaurants-list-container {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  padding-inline-start: 0px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.popular-heading {
+  font-family: 'Roboto';
+  font-size: 28px;
+  margin-left: 22px;
+}
+
+.description-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.description {
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-left: 22px;
+  color: gray;
+}
+
+.offset-less-then-control {
+  margin-right: 5px;
+  font-size: 18px;
+  padding: 3px;
+  background-color: inherit;
+  border: 0.5px solid;
+}
+
+.offset-greater-then-control {
+  margin-left: 5px;
+  font-size: 18px;
+  padding: 3px;
+  background-color: inherit;
+  border: 0.5px solid;
+}
+
+.selector {
+  width: 200px;
+  height: 40px;
+  margin-right: 22px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.offset-controls-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (orientation: portrait) {
+  .restaurants-list-container {
+    flex-direction: column;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .selector {
+    width: 180px;
+    height: 25px;
+    margin-right: 22px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    border: 0.5px solid;
+  }
+}

@@ -1,0 +1,72 @@
+.my-password-container {
+  display: flex;
+  background-color: #5763a5;
+  padding: 20px;
+  border-radius: 5px;
+
+  justify-content: space-around;
+}
+.my-password-image-container {
+  width: 50%;
+}
+.my-password-image {
+  width: 350px;
+  height: 350px;
+}
+.user-container {
+  background-color: #454f84;
+  width: 50%;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.heading {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.input-container {
+  display: flex;
+  background-color: white;
+
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  border: 1px solid #94a3b8;
+  padding: 15px;
+}
+
+.form-container {
+  margin-bottom: 10px;
+}
+
+.image {
+  width: 15px;
+  border: none;
+}
+
+.input {
+  border: none;
+  outline: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button {
+  background-color: #0b69ff;
+  color: white;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-top: 10px;
+  border-width: 1px;
+  padding: 10px;
+  width: 80px;
+  border-radius: 5px;
+}

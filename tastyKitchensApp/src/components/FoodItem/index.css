@@ -1,0 +1,78 @@
+.item-thumbnail {
+  width: 50%;
+  height: 180px;
+  border-radius: 8px;
+}
+
+.item-detailes-container {
+  margin-left: 12px;
+}
+
+.item-container {
+  display: flex;
+  width: 38vw;
+  background-size: cover;
+  margin-bottom: 26px;
+}
+
+.item-name {
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.item-cost {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 2px;
+  margin-bottom: 8px;
+}
+
+.cost-container {
+  display: flex;
+  align-items: center;
+}
+
+.rupee-icon {
+  margin-bottom: 6px;
+}
+
+.item-rating {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+}
+
+.count-controllers-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90px;
+}
+
+.add-btn {
+  background-color: #f7931e;
+  color: #fff;
+  width: 60px;
+  margin-top: 5px;
+  height: 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border: 0px solid;
+  border-radius: 8px;
+}
+
+@media screen and (orientation: portrait) {
+  .item-container {
+    width: 100%;
+  }
+  .item-thumbnail {
+    height: 150px;
+  }
+  .add-btn {
+    font-weight: normal;
+  }
+}

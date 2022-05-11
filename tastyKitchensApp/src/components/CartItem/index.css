@@ -1,0 +1,64 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin: 18px;
+  width: 90vw;
+}
+
+.item-image {
+  width: 220px;
+  height: 160px;
+  border-radius: 12px;
+  margin-left: 22px;
+}
+
+.cart-item-detailes-container {
+  display: flex;
+  justify-content: space-between;
+  width: 67%;
+  margin-left: 18px;
+}
+
+.cart-item-name {
+  font-family: 'Roboto';
+  font-size: 22px;
+  width: 15vw;
+}
+
+.count-controllers-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90px;
+}
+
+.cart-item-rupee-icon {
+  padding-top: 2px;
+  margin-right: 4px;
+}
+
+.price {
+  color: #ffa412;
+  font-size: 22px;
+  margin-top: 6px;
+  margin-bottom: 8px;
+}
+
+@media screen and (orientation: portrait) {
+  .item-image {
+    height: 140px;
+    width: 160px;
+    margin-left: 0px;
+  }
+  .cart-item-detailes-container {
+    flex-direction: column;
+  }
+  .cart-item-name {
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .count-controllers-container {
+    height: 40px;
+  }
+}

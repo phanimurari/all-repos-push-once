@@ -1,0 +1,6 @@
+/* Write your CSS code here */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}

@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.recent-match-card {
+  background-color: #0f172a;
+  width: 135px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 18px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-match-card {
+    width: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+.recent-match-logo {
+  height: 52px;
+  width: 52px;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-match-logo {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+.recent-match-team-name {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-match-team-name {
+    font-size: 20px;
+  }
+}
+
+.recent-match-result {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-match-result {
+    font-size: 14px;
+  }
+}
+
+.recent-match-status {
+  font-family: 'Bree serif';
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-match-status {
+    font-size: 16px;
+  }
+}
+
+.won {
+  color: #18ed66;
+}
+
+.lost {
+  color: #e31a1a;
+}

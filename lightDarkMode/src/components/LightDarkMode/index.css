@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.heading-black {
+  color: black;
+  font-family: 'Roboto';
+}
+.card {
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 30px;
+  text-align: center;
+}
+.card-bg-dark-color {
+  background-color: black;
+  color: #ffffff;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 30px;
+  text-align: center;
+}
+.card-bg-light-color {
+  background-color: white;
+  color: black;
+  font-family: 'Roboto';
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding: 30px;
+  text-align: center;
+}
+.button {
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+}

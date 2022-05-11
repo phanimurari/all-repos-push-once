@@ -1,0 +1,33 @@
+/* Write your CSS code here */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  width: 180px;
+  height: 40px;
+}
+
+.list-items {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.item {
+  margin: 10px;
+  color: #64748b;
+}
+
+.nav-btn {
+  background-color: #0967d2;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  width: 90px;
+  height: 30px;
+  border-radius: 8px;
+}

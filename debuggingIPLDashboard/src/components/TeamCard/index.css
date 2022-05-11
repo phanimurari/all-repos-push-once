@@ -1,0 +1,20 @@
+.team-list-item {
+  list-style-type: none;
+  border: 2px solid #475569;
+  border-radius: 10px;
+  height: 100px;
+  width: 250px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.team-image-url {
+  height: 70px;
+  width: 60px;
+}
+.name {
+  font-size: 18px;
+  color: #ffffff;
+}

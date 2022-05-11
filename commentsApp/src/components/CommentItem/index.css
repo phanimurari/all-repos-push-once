@@ -1,0 +1,99 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.each-comment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.initial-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: Center;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.commenter-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.commenter-name {
+  font-family: 'Consolas';
+  font-size: 20px;
+}
+
+.time {
+  font-size: 10px;
+  color: #64748b;
+  font-family: 'Consolas';
+}
+
+.comment-content {
+  font-family: 'Consolas';
+  font-size: 15px;
+  color: #475569;
+}
+
+.btn-like {
+  border-style: none;
+  background-color: transparent;
+  width: 25px;
+  cursor: pointer;
+  outline: none;
+  margin-left: 10px;
+}
+
+.like-image {
+  height: 15px;
+  width: 15px;
+}
+
+.btn-delete {
+  border-style: none;
+  background-color: transparent;
+  width: 25px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

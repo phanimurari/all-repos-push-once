@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #0f172a;
+}
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}

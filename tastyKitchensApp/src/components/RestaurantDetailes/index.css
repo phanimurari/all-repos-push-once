@@ -1,0 +1,164 @@
+.restaurant-detailes {
+  background-image: url('https://res.cloudinary.com/aguruprasad/image/upload/v1643643582/Frame_ze6lde.png');
+  background-size: cover;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 80vh;
+}
+
+.restaurant-thumbnail {
+  width: 250px;
+  height: 200px;
+  margin-left: 8vw;
+  border-radius: 8px;
+  margin-right: 22px;
+}
+
+.detailes-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.cuisine {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.location {
+  font-family: 'Roboto';
+  color: #ffffff;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.ratings-container {
+  margin-top: 20px;
+  display: flex;
+  width: 20vw;
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.star-rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.restaurant-rating {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.cost {
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
+
+.items-list {
+  list-style: none;
+  padding-inline-start: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80vw;
+}
+
+.items-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.restaurant-star {
+  margin-right: 5px;
+}
+
+.rupee-icon {
+  margin-bottom: -2px;
+}
+
+@media screen and (orientation: portrait) {
+  .restaurant-detailes {
+    overflow: hidden;
+    padding-top: 10px;
+  }
+  .restaurant-thumbnail {
+    height: 200px;
+    width: 200px;
+    margin-left: 22px;
+    margin-top: -80px;
+    margin-left: -40px;
+    border-radius: 50%;
+  }
+  .ratings-container {
+    width: 40vw;
+  }
+  .star-rating-container {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .restaurant-rating {
+    margin-bottom: 4px;
+    margin-top: 4px;
+  }
+  .rating-count {
+    margin-top: 4px;
+    margin-bottom: 4px;
+  }
+  .cost {
+    margin-bottom: 5px;
+    margin-left: 8px;
+  }
+  .cost-description {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 8px;
+  }
+  .name {
+    font-size: 18px;
+  }
+  .cuisine {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .location {
+    font-size: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+  .ratings-container {
+    margin-top: 8px;
+  }
+  .star-rating-container {
+    width: 100%;
+  }
+}
